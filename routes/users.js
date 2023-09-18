@@ -17,7 +17,7 @@ router.post('/users',(req,res) => {
 })
 
 
-// get any route that starts of /users 
+// get any route that starts from /users 
 
 router
 .route("/:id")
