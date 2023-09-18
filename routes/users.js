@@ -31,14 +31,14 @@ router
     res.send(`Delete user with id ${req.params.id}`)
 })
 
-const users = [{name : "Kyle"},{name : "Sally"}]
+// const users = [{name : "Kyle"},{name : "Sally"}]
 
 // middlewear function
-router.param("id",(req,res,next,id) => {
+/* router.param("id",(req,res,next,id) => {
     req.user = users[id]
     next()
 })
-
+*/
 
 
 module.exports = router
